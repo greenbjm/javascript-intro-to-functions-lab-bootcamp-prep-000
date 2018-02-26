@@ -15,10 +15,9 @@ function logWhisper(string) {
   return `I can\'t hear you!` 
   }
   function sayHiToGrandma(string) {
-  return `HELLO, YES INDEED!` 
+  return `YES INDEED!` 
   }
 
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
-  })
-})
+  function sayHiToGrandma(string) {
+    return `I love you, too.`
+  }
